@@ -6,6 +6,37 @@
     <link rel="stylesheet" href="style.css.html">
 
     <style>
+      
+    html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+        
+        @media (max-width: 768px) { 
+            body {width:100%;}
+            table {width:100%;}
+            h1, h3 {width:100%;}
+            
+            body table:first-child tbody:first-child td {
+                display:block;
+            }
+            body table:first-child tbody td:first-child {
+            margin: 0 auto;
+                width:100%;
+            }
+            body table:first-child tbody td:nth-child(2) {
+            width:100%;
+            }
+            
+
+    }
+    
       body {
         background: linear-gradient(to right, rgb(198, 255, 221), rgb(251, 215, 134), rgb(247, 121, 125));
         text-align: center;
